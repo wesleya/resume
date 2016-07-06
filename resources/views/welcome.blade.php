@@ -46,6 +46,34 @@
             color: #38cb87;
         }
 
+        .btn-circle.btn-xl.brown {
+            border-color: #774F38;
+            border-width: 2px;
+            color: #774F38;
+        }
+
+        .btn-circle.btn-xl.pink {
+            border-color: #E08E79;
+            border-width: 2px;
+            color: #E08E79;
+        }
+
+        .btn-circle.btn-xl.tan {
+            border-color: #F1D4AF;
+            border-width: 2px;
+            color: #F1D4AF;
+        }
+        .btn-circle.btn-xl.purple {
+            border-color: #ECE5CE;
+            border-width: 2px;
+            color: #ECE5CE;
+        }
+        .btn-circle.btn-xl.white {
+            border-color: #FAFFFE;
+            border-width: 2px;
+            color: #FAFFFE;
+        }
+
         .btn-circle.btn-xl {
             width: 140px;
             height: 140px;

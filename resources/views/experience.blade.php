@@ -139,14 +139,14 @@
                     </div>
 
                     <div class="list-group" style="background-color: transparent; border: none;">
-                        <a href="#" class="list-group-item" style="background-color: transparent; border: none;">
+                        <div class="list-group-item" style="background-color: transparent; border: none;">
                             <h6 class="list-group-item-heading">Backend</h6>
                             <p class="list-group-item-text">PHP, MySQL, Git</p>
-                        </a>
-                        <a href="#" class="list-group-item" style="background-color: transparent; border: none;">
+                        </div>
+                        <div class="list-group-item" style="background-color: transparent; border: none;">
                             <h6 class="list-group-item-heading">Frontend</h6>
                             <p class="list-group-item-text">HTML, Bootstrap</p>
-                        </a>
+                        </div>
                     </div>
 
                 </div>
@@ -160,20 +160,28 @@
                     </div>
 
                     <div class="list-group" style="background-color: transparent; border: none;">
-                        <a href="#" class="list-group-item" style="background-color: transparent; border: none;">
+                        <div href="#" class="list-group-item" style="background-color: transparent; border: none;">
                             <h6 class="list-group-item-heading">Back End</h6>
                             <p class="list-group-item-text">Laravel, Rest APIs, PHPUnit</p>
-                        </a>
-                        <a href="#" class="list-group-item" style="background-color: transparent; border: none;">
+                        </div>
+                        <div href="#" class="list-group-item" style="background-color: transparent; border: none;">
                             <h6 class="list-group-item-heading">Front End</h6>
                             <p class="list-group-item-text">JQuery, Bootstrap, Javascript, VueJS, CSS, LESS, Selenium, Gulp, ES6</p>
-                        </a>
-                        <a href="#" class="list-group-item" style="background-color: transparent; border: none;">
+                        </div>
+                        <div href="#" class="list-group-item" style="background-color: transparent; border: none;">
                             <h6 class="list-group-item-heading">Dev Ops</h6>
                             <p class="list-group-item-text">Vagrant (Homestead), Linux, NGINX, Apache</p>
-                        </a>
+                        </div>
                     </div>
 
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-8 col-sm-offset-4">
+                <div class="card" style="background-color: transparent; border: none;">
+                    <div class="card-block">
+                        <a class="card-title">Download PDF</a>
+                    </div>
                 </div>
             </div>
         </div>
