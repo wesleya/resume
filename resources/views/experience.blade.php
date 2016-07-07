@@ -70,15 +70,15 @@
                     <div class="list-group" style="background-color: transparent; border: none;">
                         <div class="list-group-item" style="background-color: transparent; border: none;">
                             <h5 class="list-group-item-heading">Refactor Payable System</h5>
-                            <p class="list-group-item-text">Refactored legacy payable library used in our largest product into a REST API that can be used across multiple products.</p>
+                            <p class="list-group-item-text">Port legacy payable library into a REST API that can be used across multiple products.</p>
                         </div>
                         <div class="list-group-item" style="background-color: transparent; border: none;">
                             <h5 class="list-group-item-heading">Build Admin Review System</h5>
-                            <p class="list-group-item-text">Built user facing system to allow submission of important documents (Drivers License, Passports, Payment Information, etc). As well as Internal tools to allow customer service to review and store these documents.</p>
+                            <p class="list-group-item-text">Built user + internal facing system for submission, review, storage of documents (Drivers License, Passports, etc).</p>
                         </div>
                         <div class="list-group-item" style="background-color: transparent; border: none;">
                             <h5 class="list-group-item-heading">Build Mass Inmail System</h5>
-                            <p class="list-group-item-text">This was my first large project as a senior developer, building a tool allowing users to query clients based on certain spending habits, and create inmail campaigns targeting those clients.</p>
+                            <p class="list-group-item-text">Tool allowing users to query clients based on certain spending habits, and build inmail campaigns targeting those clients.</p>
                         </div>
                     </div>
 
