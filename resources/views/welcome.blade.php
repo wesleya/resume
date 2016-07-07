@@ -40,38 +40,34 @@
             color: #f6921f;
         }
 
-        .btn-circle.btn-xl.success {
+        .btn-square.btn-xl.warning {
+            border-color: #f06030;
+            border-width: 2px;
+            color: #f06030;
+        }
+
+        .btn-square.btn-xl.success {
             border-color: #38cb87;
             border-width: 2px;
             color: #38cb87;
         }
 
-        .btn-circle.btn-xl.brown {
+        .btn-square.btn-xl.danger {
+            border-color: #f6921f;
+            border-width: 2px;
+            color: #f6921f;
+        }
+
+        .btn-square.btn-xl.brown {
             border-color: #774F38;
             border-width: 2px;
             color: #774F38;
         }
 
-        .btn-circle.btn-xl.pink {
+        .btn-square.btn-xl.pink {
             border-color: #E08E79;
             border-width: 2px;
             color: #E08E79;
-        }
-
-        .btn-circle.btn-xl.tan {
-            border-color: #F1D4AF;
-            border-width: 2px;
-            color: #F1D4AF;
-        }
-        .btn-circle.btn-xl.purple {
-            border-color: #ECE5CE;
-            border-width: 2px;
-            color: #ECE5CE;
-        }
-        .btn-circle.btn-xl.white {
-            border-color: #FAFFFE;
-            border-width: 2px;
-            color: #FAFFFE;
         }
 
         .btn-circle.btn-xl {
@@ -81,6 +77,17 @@
             font-size: 48px;
             line-height: 1.33;
             border-radius: 70px;
+            background: none;
+            margin-bottom: 30px;
+        }
+
+        .btn-square.btn-xl {
+            width: 100%;
+            height: 100%;
+            padding: 0;
+            font-size: 48px;
+            line-height: 1.33;
+            border-radius: 10px;
             background: none;
             margin-bottom: 30px;
         }

@@ -28,39 +28,40 @@
         </div>
 
         <div class="row" style="padding-top: 15px;">
-            <div class="col-sm-2 col-sm-offset-1">
-                <div class="card card-block text-xs-center" style="background-color: transparent; border: none;">
-                    <button type="button" class="btn btn-default btn-circle btn-xl brown">
-                        <i class="fa fa-github-square"></i>
-                    </button>
-                </div>
-            </div>
-            <div class="col-sm-2">
-                <div class="card card-block text-xs-center" style="background-color: transparent; border: none;">
-                    <button type="button" class="btn btn-default btn-circle btn-xl pink">
-                        <i class="fa fa-bitbucket-square"></i>
-                    </button>
-                </div>
-            </div>
-            <div class="col-sm-2">
-                <div class="card card-block text-xs-center" style="background-color: transparent; border: none;">
-                    <button type="button" class="btn btn-default btn-circle btn-xl success">
-                        <i class="fa fa-linkedin-square"></i>
-                    </button>
-                </div>
-            </div>
-            <div class="col-sm-2">
-                <div class="card card-block text-xs-center" style="background-color: transparent; border: none;">
-                    <button type="button" class="btn btn-default btn-circle btn-xl warning">
-                        <i class="fa fa-facebook-square"></i>
-                    </button>
-                </div>
-            </div>
-            <div class="col-sm-2">
-                <div class="card card-block text-xs-center" style="background-color: transparent; border: none;">
-                    <button type="button" class="btn btn-default btn-circle btn-xl danger">
-                        <i class="fa fa-twitter-square"></i>
-                    </button>
+            <div class="col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-12">
+                <div class="row">
+                    <div class="col-xs-3">
+                        <a href="https://github.com/wesleya"
+                           type="button"
+                           class="btn btn-default btn-square btn-xl brown"
+                        >
+                            <i class="fa fa-github-square"></i>
+                        </a>
+                    </div>
+                    <div class="col-xs-3">
+                        <a href="https://www.linkedin.com/in/wesley-agena-39919330"
+                           type="button"
+                           class="btn btn-default btn-square btn-xl success"
+                        >
+                            <i class="fa fa-linkedin-square"></i>
+                        </a>
+                    </div>
+                    <div class="col-xs-3">
+                        <a href="https://www.facebook.com/wesley.agena"
+                           type="button"
+                           class="btn btn-default btn-square btn-xl warning"
+                        >
+                            <i class="fa fa-facebook-square"></i>
+                        </a>
+                    </div>
+                    <div class="col-xs-3">
+                        <a href="https://twitter.com/wesley837"
+                           type="button"
+                           class="btn btn-default btn-square btn-xl danger"
+                        >
+                            <i class="fa fa-twitter-square"></i>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
