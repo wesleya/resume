@@ -14,5 +14,7 @@ var elixir = require('laravel-elixir');
 elixir(function(mix) {
     mix.sass('app.scss')
         .copy('bower_components/', 'public/bower_components')
-        .copy('resources/img', 'public/img');
+        .copy('resources/img', 'public/img')
+        .styles('app.css')
+        .version('css/app.css');
 });
