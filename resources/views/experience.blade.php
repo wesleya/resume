@@ -138,17 +138,9 @@
                         </h6>
                     </div>
 
-                    <div class="list-group" style="background-color: transparent; border: none;">
-                        <div class="list-group-item" style="background-color: transparent; border: none;">
-                            <h6 class="list-group-item-heading">Backend</h6>
-                            <p class="list-group-item-text">PHP, MySQL, Git</p>
-                        </div>
-                        <div class="list-group-item" style="background-color: transparent; border: none;">
-                            <h6 class="list-group-item-heading">Frontend</h6>
-                            <p class="list-group-item-text">HTML, Bootstrap</p>
-                        </div>
+                    <div class="card-block" style="padding-top: 0;">
+                        PHP, MySQL, Git, HTML
                     </div>
-
                 </div>
             </div>
 
@@ -158,22 +150,9 @@
                         <h4 class="card-title">Familiar</h4>
                         <h6 class="card-subtitle text-muted">Technologies I've used in <strong>side projects</strong>, or worked with on a <strong>semi-regular basis</strong> for 5+ years.</h6>
                     </div>
-
-                    <div class="list-group" style="background-color: transparent; border: none;">
-                        <div href="#" class="list-group-item" style="background-color: transparent; border: none;">
-                            <h6 class="list-group-item-heading">Back End</h6>
-                            <p class="list-group-item-text">Laravel, Rest APIs, PHPUnit</p>
-                        </div>
-                        <div href="#" class="list-group-item" style="background-color: transparent; border: none;">
-                            <h6 class="list-group-item-heading">Front End</h6>
-                            <p class="list-group-item-text">JQuery, Bootstrap, Javascript, VueJS, CSS, LESS, Selenium, Gulp, ES6</p>
-                        </div>
-                        <div href="#" class="list-group-item" style="background-color: transparent; border: none;">
-                            <h6 class="list-group-item-heading">Dev Ops</h6>
-                            <p class="list-group-item-text">Vagrant (Homestead), Linux, NGINX, Apache</p>
-                        </div>
+                    <div class="card-block" style="padding-top: 0;">
+                        Laravel, Rest APIs, PHPUnit, JQuery, Bootstrap, Javascript, VueJS, CSS, LESS, Selenium, Gulp, ES6, Vagrant (Homestead), Linux, NGINX, Apache
                     </div>
-
                 </div>
             </div>
 

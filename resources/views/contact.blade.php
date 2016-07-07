@@ -6,6 +6,15 @@
         <h1 class="display-3 text-xs-center" style="color: #73938F">Contact</h1>
 
         <div class="row" style="padding-top: 15px;">
+            <div class="col-xs-8 col-xs-offset-2 col-sm-4 col-sm-offset-4 col-md-2 col-md-offset-5"
+                 style="padding-bottom: 20px;"
+            >
+                <img src="/img/profile-pic.png"
+                     class="img-rounded center-block"
+                     style="width: 100%;"
+                     alt="profile picture"
+                >
+            </div>
             <div class="col-xs-12">
                 <h5 class="card card-block text-xs-center" style="background-color: transparent; border: none;">
                     Email: wesley.agena@gmail.com
