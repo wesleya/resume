@@ -22,6 +22,20 @@
             margin: 0;
         }
 
+        h1, h2, p {
+            color: #73938F;
+        }
+
+        .intro-text:first-of-type {
+            color: #73938F;
+            padding-top: 15px;
+        }
+
+        .intro-text:last-of-type {
+            color: #73938F;
+            padding-bottom: 15px;
+        }
+
         .btn-circle.btn-xl.warning {
             border-color: #f06030;
             border-width: 2px;
@@ -100,6 +114,10 @@
         }
         .text-danger {
             color: #f6921f!important;
+        }
+
+        .btn-container {
+            margin-bottom: 15px;
         }
     </style>
 </head>
