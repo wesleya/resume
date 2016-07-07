@@ -36,6 +36,15 @@
             padding-bottom: 15px;
         }
 
+        .card-button {
+            background-color: transparent;
+            border: none;
+        }
+
+        .card-button .card-text {
+            color: #a8b0bb;
+        }
+
         .btn-circle.btn-xl.warning {
             border-color: #f06030;
             border-width: 2px;
@@ -118,6 +127,11 @@
 
         .btn-container {
             margin-bottom: 15px;
+        }
+
+        #projects {
+            background-color: #FAFFFE;
+            margin-bottom: 0
         }
     </style>
 </head>
