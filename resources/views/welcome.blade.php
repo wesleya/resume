@@ -140,7 +140,12 @@
             margin-bottom: 0;
         }
 
-        .experience-row {
+        #contact {
+            background-color: #C5E0DC;
+            margin-bottom: 0;
+        }
+
+        .section-row {
             padding-top: 15px;
         }
 
@@ -154,6 +159,10 @@
 
         .card-secondary-text {
             padding-top: 0;
+        }
+
+        .profile-pic {
+            width: 100%;
         }
 
     </style>

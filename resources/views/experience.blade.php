@@ -3,7 +3,7 @@
 >
     <div class="container">
         <h1 class="display-3 text-xs-center">Experience</h1>
-        <div class="row experience-row">
+        <div class="row section-row">
             <div class="col-sm-3 col-sm-offset-1 col-xs-12">
                 <div class="card component-transparent">
                     <div class="card-block experience-title-block">
@@ -57,7 +57,7 @@
             </div>
         </div>
 
-        <div class="row experience-row">
+        <div class="row section-row">
             <div class="col-sm-3 col-sm-offset-1 col-xs-12">
                 <div class="card component-transparent">
                     <div class="card-block experience-title-block">
@@ -146,7 +146,7 @@
             </div>
         </div>
 
-        <div class="row experience-row">
+        <div class="row section-row">
             <div class="col-sm-3 col-sm-offset-1 col-xs-12">
                 <div class="card component-transparent">
                     <div class="card-block experience-title-block">
