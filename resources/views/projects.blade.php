@@ -5,7 +5,7 @@
         <h1 class="display-3">Side Projects</h1>
         <div class="row" style="padding-top: 15px;">
             <div class="col-sm-4">
-                <div class="card card-block card-button text-xs-center">
+                <div class="card card-block component-transparent text-xs-center">
                     <a href="https://hashtagaway.com">
                         <button type="button"
                                 class="btn btn-default btn-circle btn-xl warning"
@@ -25,7 +25,7 @@
                 </div>
             </div>
             <div class="col-sm-4">
-                <div class="card card-block card-button text-xs-center">
+                <div class="card card-block component-transparent text-xs-center">
                     <a href="https://github.com/wesleya/parallel-phpunit-ui">
                         <button type="button"
                                 class="btn btn-default btn-circle btn-xl success"
@@ -43,7 +43,7 @@
                 </div>
             </div>
             <div class="col-sm-4">
-                <div class="card card-block card-button text-xs-center">
+                <div class="card card-block component-transparent text-xs-center">
                     <a href="https://thesimplewebdeveloper.com">
                         <button type="button"
                                 class="btn btn-default btn-circle btn-xl danger"

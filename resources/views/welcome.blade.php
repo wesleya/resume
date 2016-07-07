@@ -36,7 +36,7 @@
             padding-bottom: 15px;
         }
 
-        .card-button {
+        .component-transparent {
             background-color: transparent;
             border: none;
         }
@@ -133,6 +133,29 @@
             background-color: #FAFFFE;
             margin-bottom: 0
         }
+
+        #experience {
+            background-color: #ECEEF1;
+            color: #73938F;
+            margin-bottom: 0;
+        }
+
+        .experience-row {
+            padding-top: 15px;
+        }
+
+        .experience-title {
+            margin-bottom: 0;
+        }
+
+        .experience-title-block {
+            padding-bottom:0;
+        }
+
+        .card-secondary-text {
+            padding-top: 0;
+        }
+
     </style>
 </head>
 <body>
