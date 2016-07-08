@@ -44,7 +44,7 @@
             <div class="col-sm-3 col-sm-offset-1 col-xs-12">
                 <div class="card component-transparent">
                     <div class="card-block experience-title-block">
-                        <h2 class="card-title experience-title">Work History</h2>
+                        <h2 class="card-title experience-title">Work</h2>
                     </div>
                 </div>
             </div>
@@ -52,7 +52,7 @@
             <div class="col-sm-5 col-xs-12">
                 <div class="card component-transparent">
                     <div class="card-block">
-                        <h3 class="card-title">Accretive Technology Group</h3>
+                        <h4 class="card-title">Accretive Technology Group</h4>
                         <h6 class="card-subtitle text-muted">Senior Software Developer</h6>
                         <p class="card-text hidden-md-up">
                             <small class="text-muted">April 2014 - February 2016</small>
@@ -98,7 +98,7 @@
             <div class="col-sm-5 col-sm-offset-4 col-xs-12">
                 <div class="card component-transparent">
                     <div class="card-block">
-                        <h3 class="card-title">Accretive Technology Group</h3>
+                        <h4 class="card-title">Accretive Technology Group</h4>
                         <h6 class="card-subtitle text-muted">Software Developer</h6>
                         <p class="card-text hidden-md-up">
                             <small class="text-muted">October 2011 - April 2014</small>
@@ -138,11 +138,13 @@
                 </div>
             </div>
 
-            <div class="col-sm-5 col-xs-12">
-                <div class="card component-transparent">
-                    <div class="card-block">
-                        <h3 class="card-title">University of the Pacific</h3>
-                        <h6 class="card-subtitle text-muted">Masters in Engineering Science - Computer Science</h6>
+            <div class="col-sm-5 col-xs-12 section-row">
+                <div class="list-group component-transparent">
+                    <div class="list-group-item component-transparent">
+                        <h5 class="list-group-item-heading">Masters in Engineering Science - Computer Science</h5>
+                        <p class="list-group-item-text">
+                            BS Computer Science - Networking and Security
+                        </p>
                         <p class="card-text text-sm-right hidden-md-up">
                             <small class="text-muted">June 2010 - September 2011</small>
                         </p>
@@ -161,10 +163,12 @@
             </div>
 
             <div class="col-sm-5 col-sm-offset-4 col-xs-12">
-                <div class="card component-transparent">
-                    <div class="card-block">
-                        <h3 class="card-title">University of the Pacific</h3>
-                        <h6 class="card-subtitle text-muted">BS Computer Science - Networking and Security</h6>
+                <div class="list-group component-transparent">
+                    <div class="list-group-item component-transparent">
+                        <h5 class="list-group-item-heading">University of the Pacific</h5>
+                        <p class="list-group-item-text">
+                            BS Computer Science - Networking and Security
+                        </p>
                         <p class="card-text text-sm-right hidden-md-up">
                             <small class="text-muted">May 2005 - May 2010</small>
                         </p>
