@@ -141,9 +141,9 @@
             <div class="col-sm-5 col-xs-12 section-row">
                 <div class="list-group component-transparent">
                     <div class="list-group-item component-transparent">
-                        <h5 class="list-group-item-heading">Masters in Engineering Science - Computer Science</h5>
+                        <h5 class="list-group-item-heading">University of the Pacific</h5>
                         <p class="list-group-item-text">
-                            BS Computer Science - Networking and Security
+                            Masters in Engineering Science - Computer Science
                         </p>
                         <p class="card-text text-sm-right hidden-md-up">
                             <small class="text-muted">June 2010 - September 2011</small>
