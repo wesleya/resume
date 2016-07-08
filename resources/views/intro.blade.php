@@ -1,6 +1,6 @@
 <div class="jumbotron jumbotron-fluid" style="background-color: transparent;">
     <div class="container">
-        <h1 class="display-3">Hello! I Am Wesley Agena</h1>
+        <h1 class="display-3">Hello! I'm Wesley Agena</h1>
         <h2>Senior Backend PHP Developer</h2>
         <p class="lead intro-text">
             My career to date includes a strong focus on refactoring legacy backend code for large applications, making the PHP/MySQL stack my strength.
