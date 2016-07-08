@@ -1,6 +1,6 @@
 # Resume
 
-This is a simple resume I made for [myself](wesleyagena.com), a backend web developer with some minimal front end experience.
+This is a simple resume I made for [myself](https://wesleyagena.com), a backend web developer with some minimal front end experience.
 
 Using this repo as my resume, plus as a testing ground for newest/beta versions of Laravel, VueJS, Bootstrap, etc.
 
