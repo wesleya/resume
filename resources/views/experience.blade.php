@@ -155,32 +155,26 @@
                 </div>
             </div>
 
-            <div class="col-sm-5 col-xs-12">
-                <div class="card component-transparent">
-                    <div class="card-block">
-                        <h4 class="card-title">Expert</h4>
-                        <h6 class="card-subtitle text-muted">
+            <div class="col-sm-5 col-xs-12 section-row">
+                <div class="list-group">
+                    <div class="list-group-item component-transparent">
+                        <h4 class="list-group-item-heading">Expert</h4>
+                        <p class="list-group-item-text">
                             These are technologies I've worked with on an <strong>everyday basis</strong> for 5+ years,
                             used in projects that serve millions of users per day.
-                        </h6>
+                        </p>
                     </div>
-
-                    <div class="card-block card-secondary-text">
+                    <div class="list-group-item component-transparent">
                         PHP, MySQL, Git, HTML
                     </div>
-                </div>
-            </div>
-
-            <div class="col-sm-5 col-sm-offset-4 col-xs-12">
-                <div class="card component-transparent">
-                    <div class="card-block">
-                        <h4 class="card-title">Familiar</h4>
-                        <h6 class="card-subtitle text-muted">
+                    <div class="list-group-item component-transparent">
+                        <h4 class="list-group-item-heading">Familiar</h4>
+                        <p class="list-group-item-text">
                             Technologies I've used in <strong>side projects</strong>, or worked with on a
                             <strong>semi-regular basis</strong> for 5+ years.
-                        </h6>
+                        </p>
                     </div>
-                    <div class="card-block card-secondary-text">
+                    <div class="list-group-item component-transparent">
                         Laravel, Rest APIs, PHPUnit, JQuery, Bootstrap, Javascript, VueJS, CSS, LESS, Selenium, Gulp,
                         ES6, Vagrant (Homestead), Linux, NGINX, Apache
                     </div>
