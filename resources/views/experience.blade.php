@@ -3,55 +3,38 @@
 >
     <div class="container">
         <h1 class="display-3 text-xs-center">Experience</h1>
+
         <div class="row section-row">
             <div class="col-sm-3 col-sm-offset-1 col-xs-12">
                 <div class="card component-transparent">
                     <div class="card-block experience-title-block">
-                        <h2 class="card-title experience-title">Education</h2>
+                        <h2 class="card-title experience-title">Skills</h2>
                     </div>
                 </div>
             </div>
 
-            <div class="col-sm-5 col-xs-12">
-                <div class="card component-transparent">
-                    <div class="card-block">
-                        <h3 class="card-title">University of the Pacific</h3>
-                        <h6 class="card-subtitle text-muted">Masters in Engineering Science - Computer Science</h6>
-                        <p class="card-text text-sm-right hidden-md-up">
-                            <small class="text-muted">June 2010 - September 2011</small>
+            <div class="col-sm-5 col-xs-12 section-row">
+                <div class="list-group">
+                    <div class="list-group-item component-transparent">
+                        <h4 class="list-group-item-heading">Expert</h4>
+                        <p class="list-group-item-text">
+                            Technologies used on an <strong>everyday basis</strong> for 5+ years,
+                            serving millions of users per day.
                         </p>
                     </div>
-                </div>
-            </div>
-
-            <div class="col-sm-3 col-xs-12 hidden-sm-down">
-                <div class="card component-transparent">
-                    <div class="card-block">
-                        <p class="card-text text-sm-right">
-                            <small class="text-muted">June 2010 - September 2011</small>
+                    <div class="list-group-item component-transparent">
+                        PHP, MySQL, Git, HTML, CSS, Bootstrap
+                    </div>
+                    <div class="list-group-item component-transparent">
+                        <h4 class="list-group-item-heading">Familiar</h4>
+                        <p class="list-group-item-text">
+                            Technologies used in <strong>side projects</strong>, or on a
+                            <strong>semi-regular basis</strong> for 5+ years.
                         </p>
                     </div>
-                </div>
-            </div>
-
-            <div class="col-sm-5 col-sm-offset-4 col-xs-12">
-                <div class="card component-transparent">
-                    <div class="card-block">
-                        <h3 class="card-title">University of the Pacific</h3>
-                        <h6 class="card-subtitle text-muted">BS Computer Science - Networking and Security</h6>
-                        <p class="card-text text-sm-right hidden-md-up">
-                            <small class="text-muted">May 2005 - May 2010</small>
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-sm-3 col-xs-12 hidden-sm-down">
-                <div class="card component-transparent">
-                    <div class="card-block">
-                        <p class="card-text text-sm-right">
-                            <small class="text-muted">May 2005 - May 2010</small>
-                        </p>
+                    <div class="list-group-item component-transparent">
+                        Laravel, Rest APIs, PHPUnit, JQuery, Javascript, VueJS, LESS, Selenium, Gulp,
+                        ES6, Vagrant (Homestead), Linux, NGINX, Apache
                     </div>
                 </div>
             </div>
@@ -61,7 +44,7 @@
             <div class="col-sm-3 col-sm-offset-1 col-xs-12">
                 <div class="card component-transparent">
                     <div class="card-block experience-title-block">
-                        <h2 class="card-title experience-title">Work</h2>
+                        <h2 class="card-title experience-title">Work History</h2>
                     </div>
                 </div>
             </div>
@@ -150,44 +133,63 @@
             <div class="col-sm-3 col-sm-offset-1 col-xs-12">
                 <div class="card component-transparent">
                     <div class="card-block experience-title-block">
-                        <h2 class="card-title experience-title">Skills</h2>
+                        <h2 class="card-title experience-title">Education</h2>
                     </div>
                 </div>
             </div>
 
-            <div class="col-sm-5 col-xs-12 section-row">
-                <div class="list-group">
-                    <div class="list-group-item component-transparent">
-                        <h4 class="list-group-item-heading">Expert</h4>
-                        <p class="list-group-item-text">
-                            These are technologies I've worked with on an <strong>everyday basis</strong> for 5+ years,
-                            used in projects that serve millions of users per day.
-                        </p>
-                    </div>
-                    <div class="list-group-item component-transparent">
-                        PHP, MySQL, Git, HTML
-                    </div>
-                    <div class="list-group-item component-transparent">
-                        <h4 class="list-group-item-heading">Familiar</h4>
-                        <p class="list-group-item-text">
-                            Technologies I've used in <strong>side projects</strong>, or worked with on a
-                            <strong>semi-regular basis</strong> for 5+ years.
-                        </p>
-                    </div>
-                    <div class="list-group-item component-transparent">
-                        Laravel, Rest APIs, PHPUnit, JQuery, Bootstrap, Javascript, VueJS, CSS, LESS, Selenium, Gulp,
-                        ES6, Vagrant (Homestead), Linux, NGINX, Apache
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-xs-12 col-sm-8 col-sm-offset-4">
+            <div class="col-sm-5 col-xs-12">
                 <div class="card component-transparent">
                     <div class="card-block">
-                        <a class="card-title">Download PDF</a>
+                        <h3 class="card-title">University of the Pacific</h3>
+                        <h6 class="card-subtitle text-muted">Masters in Engineering Science - Computer Science</h6>
+                        <p class="card-text text-sm-right hidden-md-up">
+                            <small class="text-muted">June 2010 - September 2011</small>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-3 col-xs-12 hidden-sm-down">
+                <div class="card component-transparent">
+                    <div class="card-block">
+                        <p class="card-text text-sm-right">
+                            <small class="text-muted">June 2010 - September 2011</small>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-5 col-sm-offset-4 col-xs-12">
+                <div class="card component-transparent">
+                    <div class="card-block">
+                        <h3 class="card-title">University of the Pacific</h3>
+                        <h6 class="card-subtitle text-muted">BS Computer Science - Networking and Security</h6>
+                        <p class="card-text text-sm-right hidden-md-up">
+                            <small class="text-muted">May 2005 - May 2010</small>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-3 col-xs-12 hidden-sm-down">
+                <div class="card component-transparent">
+                    <div class="card-block">
+                        <p class="card-text text-sm-right">
+                            <small class="text-muted">May 2005 - May 2010</small>
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
+
+        <div class="col-xs-12 col-sm-8 col-sm-offset-4">
+            <div class="card component-transparent">
+                <div class="card-block">
+                    <a href="resume/wesley-agena-resume.pdf" class="card-title">Download PDF</a>
+                </div>
+            </div>
+        </div>
+
     </div>
 </div>

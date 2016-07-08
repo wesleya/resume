@@ -15,6 +15,7 @@ elixir(function(mix) {
     mix.sass('app.scss')
         .copy('bower_components/', 'public/bower_components')
         .copy('resources/img', 'public/img')
+        .copy('resources/resume', 'public/resume')
         .styles('app.css')
         .version('css/app.css');
 });
