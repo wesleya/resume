@@ -6,7 +6,7 @@
             My career to date includes a strong focus on refactoring legacy backend code for large applications, making the PHP/MySQL stack my strength.
         </p>
         <p class="lead intro-text">
-            However, I also enjoy expanding my comfort zone to Frontend and DevOps through side projects, where I also experiment with the latest frameworks, design patterns, and modern technologies.
+            However, I also enjoy exploring Frontend and DevOps through side projects, where I also experiment with the current design patterns, frameworks, and technologies.
         </p>
 
         <div class="row">
