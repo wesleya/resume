@@ -1,7 +1,11 @@
 <div class="jumbotron jumbotron-fluid grad" id="intro" style="margin-bottom: 0px;">
     <div class="container">
-        <div class="jumbotron" style="background-color: transparent;">
-            <h1>Hi, I'm Wesley Agena</h1>
+        <div class="jumbotron" style="background-color: transparent; margin: 0px;">
+            <div class="row">
+                <div class="col-md-10 col-xs-12">
+                    <h1>Hi, I'm Wesley Agena</h1>
+                </div>
+            </div>
             <h2 style="padding-top: 20px;">Senior Backend PHP Developer</h2>
         </div>
 

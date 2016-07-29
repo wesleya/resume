@@ -1,29 +1,10 @@
-<div class="jumbotron jumbotron-fluid"
-     id="contact"
->
-    <div class="container">
+<div class="container">
+    <div class="jumbotron">
         <h1 class="display-3 text-xs-center">Contact</h1>
 
-        <div class="row section-row">
-            <div class="col-xs-8 offset-xs-2 col-sm-4 offset-sm-4 col-md-2 offset-md-5">
-                <img src="/img/profile-pic.png"
-                     class="img-rounded center-block profile-pic"
-                     alt="profile picture"
-                >
-            </div>
-        </div>
-        <div class="row section-row">
-            <div class="col-xs-12">
-                <h5 class="card card-block text-xs-center component-transparent">
-                    Email: wesley.agena@gmail.com
-                </h5>
-            </div>
-            <div class="col-xs-12">
-                <h5 class="card card-block text-xs-center component-transparent">
-                    Location: Seattle, WA
-                </h5>
-            </div>
-        </div>
+        <p class="lead text-xs-center">Email: wesley.agena@gmail.com</p>
+        <p class="lead text-xs-center">Location: Seattle, WA</p>
+        <hr class="m-y-2">
 
         <div class="row section-row">
             <div class="col-lg-6 offset-lg-3 col-md-8 offset-md-2 col-sm-10 offset-sm-1 col-xs-12">
@@ -63,5 +44,7 @@
                 </div>
             </div>
         </div>
+
     </div>
+
 </div>
