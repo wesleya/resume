@@ -17,18 +17,18 @@
                 </div>
                 <div class="col-xs-12 col-sm-4 col-md-3 btn-container">
                     <a class="btn btn-primary btn-lg btn-block"
-                       href="#experience"
-                       role="button"
-                    >
-                        Experience
-                    </a>
-                </div>
-                <div class="col-xs-12 col-sm-4 col-md-3 btn-container">
-                    <a class="btn btn-primary btn-lg btn-block"
                        href="#contact"
                        role="button"
                     >
                         Contact
+                    </a>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-3 btn-container">
+                    <a class="btn btn-primary btn-lg btn-block"
+                       href="resume/wesley-agena-resume.pdf"
+                       role="button"
+                    >
+                        Resume
                     </a>
                 </div>
             </div>
