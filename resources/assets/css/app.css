@@ -1,13 +1,23 @@
 body, html {
-    background: url('/img/test-bg.png');
-    background-repeat: repeat;
-    background-size: 200px 200px;
+
     height: 100%;
     margin: 0;
 }
 
 h1, h2, h5, p {
     color: #73938F;
+}
+
+#intro h1 {
+    color: whitesmoke;
+    font-weight: 800;
+    font-size: 6em;
+}
+
+#intro h2 {
+    color: whitesmoke;
+    font-weight: 200;
+    font-size: 3em;
 }
 
 .intro-text:first-of-type {

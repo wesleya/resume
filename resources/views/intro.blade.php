@@ -1,39 +1,38 @@
-<div class="jumbotron jumbotron-fluid" style="background-color: transparent;">
+<div class="jumbotron jumbotron-fluid grad" id="intro">
     <div class="container">
-        <h1 class="display-3">Hello! I'm Wesley Agena</h1>
-        <h2>Senior Backend PHP Developer</h2>
-        <p class="lead intro-text">
-            My career to date includes a strong focus on refactoring legacy backend code for large applications, making the PHP/MySQL stack my strength.
-        </p>
-        <p class="lead intro-text">
-            However, I also enjoy exploring Frontend and DevOps through side projects, where I also experiment with the current design patterns, frameworks, and technologies.
-        </p>
+        <div class="jumbotron" style="background-color: transparent">
+            <h1>Hi, I'm Wesley Agena</h1>
+            <h2 style="padding-top: 20px;">Senior Backend PHP Developer</h2>
+        </div>
 
-        <div class="row">
-            <div class="col-xs-12 col-sm-3 btn-container">
-                <a class="btn btn-primary btn-lg btn-block"
-                   href="#projects"
-                   role="button"
-                >
-                    Projects
-                </a>
-            </div>
-            <div class="col-xs-12 col-sm-3 btn-container">
-                <a class="btn btn-primary btn-lg btn-block"
-                   href="#experience"
-                   role="button"
-                >
-                    Experience
-                </a>
-            </div>
-            <div class="col-xs-12 col-sm-3 btn-container">
-                <a class="btn btn-primary btn-lg btn-block"
-                   href="#contact"
-                   role="button"
-                >
-                    Contact
-                </a>
+        <div class="jumbotron" style="background-color: transparent; padding: 32px;">
+            <div class="row">
+                <div class="col-xs-12 col-sm-4 col-md-3 btn-container">
+                    <a class="btn btn-primary btn-lg btn-block"
+                       href="#projects"
+                       role="button"
+                    >
+                        Side Projects
+                    </a>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-3 btn-container">
+                    <a class="btn btn-primary btn-lg btn-block"
+                       href="#experience"
+                       role="button"
+                    >
+                        Experience
+                    </a>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-3 btn-container">
+                    <a class="btn btn-primary btn-lg btn-block"
+                       href="#contact"
+                       role="button"
+                    >
+                        Contact
+                    </a>
+                </div>
             </div>
         </div>
+
     </div>
 </div>
