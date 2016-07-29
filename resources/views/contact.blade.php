@@ -4,7 +4,6 @@
 
         <p class="lead text-xs-center">Email: wesley.agena@gmail.com</p>
         <p class="lead text-xs-center">Location: Seattle, WA</p>
-        <hr class="m-y-2">
 
         <div class="row section-row">
             <div class="col-lg-6 offset-lg-3 col-md-8 offset-md-2 col-sm-10 offset-sm-1 col-xs-12">
