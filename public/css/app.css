@@ -20,6 +20,10 @@ h1, h2, h5, p {
     font-size: 3em;
 }
 
+#contact h1, h2, h5 {
+    color: whitesmoke;
+}
+
 .intro-text:first-of-type {
     color: #73938F;
     padding-top: 15px;
@@ -124,18 +128,12 @@ h1, h2, h5, p {
 }
 
 #projects {
-    background-color: #FAFFFE;
+    background-color: #FFFFFF;
     margin-bottom: 0
 }
 
-#experience {
-    background-color: #ECEEF1;
-    color: #73938F;
-    margin-bottom: 0;
-}
-
 #contact {
-    background-color: #C5E0DC;
+    background-color: #FFDC62;
     margin-bottom: 0;
 }
 

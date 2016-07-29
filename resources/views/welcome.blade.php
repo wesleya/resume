@@ -32,8 +32,6 @@
 
     @include('projects')
 
-    @include('experience')
-
     @include('contact')
 
 
