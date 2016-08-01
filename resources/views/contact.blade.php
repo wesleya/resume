@@ -1,4 +1,4 @@
-<div class="container">
+<div class="container" id="contact">
     <div class="jumbotron">
         <h1 class="display-3 text-xs-center">Contact</h1>
 

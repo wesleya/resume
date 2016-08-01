@@ -8,6 +8,10 @@ h1, h2, h5, p {
     color: #73938F;
 }
 
+#intro {
+    background-color: #597EEA;
+}
+
 #intro h1 {
     color: whitesmoke;
     font-weight: 800;
@@ -23,6 +27,8 @@ h1, h2, h5, p {
 #contact h1, h2, h5 {
     color: #3B4347;
 }
+
+
 
 .intro-text:first-of-type {
     color: #73938F;
@@ -147,11 +153,4 @@ h1, h2, h5, p {
 
 .experience-title-block {
     padding-bottom:0;
-}
-
-.profile-pic {
-    width: 100%;
-    border: solid;
-    border-width: 1px;
-    border-color: #73938F;
 }
