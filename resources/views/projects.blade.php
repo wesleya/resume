@@ -26,19 +26,18 @@
             </div>
             <div class="col-sm-4">
                 <div class="card card-block component-transparent text-xs-center">
-                    <a href="https://github.com/wesleya/parallel-phpunit-ui">
+                    <a href="https://github.com/wesleya/get-regex">
                         <button type="button"
                                 class="btn btn-default btn-circle btn-xl success"
                         >
                             <i class="fa fa-terminal"></i>
                         </button>
                     </a>
-                    <a href="https://github.com/wesleya/parallel-phpunit-ui">
-                        <h4 class="text-success">Parallel PHP Unit UI</h4>
+                    <a href="https://getregex.io">
+                        <h4 class="text-success">Get Regex</h4>
                     </a>
                     <p class="card-text">
-                        Link your Laravel Github repository to run PHPUnit tests in parallel from a web UI! Built on
-                        Laravel
+                        Small project to try out new Front End and Design tools. And experiment with a strict TDD workflow
                     </p>
                 </div>
             </div>
