@@ -26,7 +26,7 @@
             </div>
             <div class="col-sm-4">
                 <div class="card card-block component-transparent text-xs-center">
-                    <a href="https://github.com/wesleya/get-regex">
+                    <a href="https://getregex.io">
                         <button type="button"
                                 class="btn btn-default btn-circle btn-xl success"
                         >
@@ -37,7 +37,7 @@
                         <h4 class="text-success">Get Regex</h4>
                     </a>
                     <p class="card-text">
-                        Small project to try out new Front End and Design tools. And experiment with a strict TDD workflow
+                        Interactive regex tutorial. Small project to experiment with new Front End and Design tools, experiment TDD.
                     </p>
                 </div>
             </div>
