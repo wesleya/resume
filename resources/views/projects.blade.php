@@ -37,7 +37,7 @@
                         <h4 class="text-success">Get Regex</h4>
                     </a>
                     <p class="card-text">
-                        Interactive regex tutorial. Small project to experiment with new Front End and Design tools, experiment TDD.
+                        Interactive regex tutorial. Small project to experiment with new Front End and Design tools, experiment with TDD.
                     </p>
                 </div>
             </div>
