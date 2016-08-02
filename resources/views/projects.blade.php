@@ -43,14 +43,14 @@
             </div>
             <div class="col-sm-4">
                 <div class="card card-block component-transparent text-xs-center">
-                    <a href="https://thesimplewebdeveloper.com">
+                    <a href="http://thesimplewebdeveloper.com">
                         <button type="button"
                                 class="btn btn-default btn-circle btn-xl danger"
                         >
                             <i class="fa fa-pencil"></i>
                         </button>
                     </a>
-                    <a href="https://thesimplewebdeveloper.com">
+                    <a href="http://thesimplewebdeveloper.com">
                         <h4 class="text-danger">Blog</h4>
                     </a>
                     <p class="card-text">
