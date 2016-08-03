@@ -15,7 +15,7 @@ h1, h2, h5, p {
 #intro h1 {
     color: whitesmoke;
     font-weight: 800;
-    font-size: 6em;
+    font-size: 8em;
 }
 
 #intro h2 {
@@ -23,12 +23,6 @@ h1, h2, h5, p {
     font-weight: 200;
     font-size: 3em;
 }
-
-#contact h1, h2, h5 {
-    color: #3B4347;
-}
-
-
 
 .intro-text:first-of-type {
     color: #73938F;
