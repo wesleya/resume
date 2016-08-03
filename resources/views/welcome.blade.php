@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Wesley Agena - Seattle, WA | Senior Back End Web Developer">
+    <meta name="google-site-verification" content="OrndpbwnQrV8pOfR2b0XYxE7cx45BOW-nz7Bvfzlqh8" />
 
     <title>Wesley Agena</title>
 
