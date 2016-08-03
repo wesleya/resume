@@ -4733,20 +4733,30 @@ h1, h2, h5, p {
 #intro h1 {
   color: whitesmoke;
   font-weight: 800;
-  font-size: 8em; }
+  font-size: 5em; }
+
+@media (min-width: 544px) {
+  #intro h1 {
+    color: whitesmoke;
+    font-weight: 800;
+    font-size: 4em; } }
+
+@media (min-width: 768px) {
+  #intro h1 {
+    color: whitesmoke;
+    font-weight: 800;
+    font-size: 5em; } }
+
+@media (min-width: 992px) {
+  #intro h1 {
+    color: whitesmoke;
+    font-weight: 800;
+    font-size: 7em; } }
 
 #intro h2 {
   color: whitesmoke;
   font-weight: 200;
   font-size: 3em; }
-
-.intro-text:first-of-type {
-  color: #73938F;
-  padding-top: 15px; }
-
-.intro-text:last-of-type {
-  color: #73938F;
-  padding-bottom: 15px; }
 
 .component-transparent {
   background-color: transparent;
@@ -4790,11 +4800,6 @@ h1, h2, h5, p {
   border-width: 2px;
   color: #774F38; }
 
-.btn-square.btn-xl.pink {
-  border-color: #E08E79;
-  border-width: 2px;
-  color: #E08E79; }
-
 .btn-circle.btn-xl {
   width: 140px;
   height: 140px;
@@ -4837,11 +4842,5 @@ h1, h2, h5, p {
 
 .section-row {
   padding-top: 15px; }
-
-.experience-title {
-  margin-bottom: 0; }
-
-.experience-title-block {
-  padding-bottom: 0; }
 
 /*# sourceMappingURL=app.css.map */
