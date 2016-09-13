@@ -26,18 +26,19 @@
             </div>
             <div class="col-sm-4">
                 <div class="card card-block component-transparent text-xs-center">
-                    <a href="https://getregex.io">
+                    <a href="https://streamatemodels.com">
                         <button type="button"
                                 class="btn btn-default btn-circle btn-xl success"
                         >
-                            <i class="fa fa-terminal"></i>
+                            <i class="fa fa-video-camera"></i>
                         </button>
                     </a>
-                    <a href="https://getregex.io">
-                        <h4 class="text-success">Get Regex</h4>
+                    <a href="https://streamatemodels.com">
+                        <h4 class="text-success">Streamate Models</h4>
                     </a>
                     <p class="card-text">
-                        Interactive regex tutorial. Small project to experiment with new Front End and Design tools, experiment with TDD.
+                        A possibly NSFW project I've worked on with an awesome larger sized team. Worlds largest
+                        live cam community!
                     </p>
                 </div>
             </div>
