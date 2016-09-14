@@ -4724,6 +4724,10 @@ body, html {
   height: 100%;
   margin: 0; }
 
+.component-transparent {
+  background-color: transparent;
+  border: none; }
+
 .btn-square.btn-xl.warning {
   border-color: #ED5454;
   border-width: 2px;
@@ -4817,10 +4821,6 @@ h1, h2, h5, p {
     font-weight: 800;
     font-size: 7em; } }
 
-.component-transparent {
-  background-color: transparent;
-  border: none; }
-
 .btn-primary {
   background-color: #555555;
   border-color: #434343; }
@@ -4845,5 +4845,8 @@ h1, h2, h5, p {
 
 .section-row {
   padding-top: 15px; }
+
+.jumbotron {
+  padding-bottom: 0px; }
 
 /*# sourceMappingURL=app.css.map */

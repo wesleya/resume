@@ -24,8 +24,8 @@ class ChefStepsRemoveDuplicateEmails extends Request
     public function rules()
     {
         return [
-            'count' => 'integer|max:100000|min:0',
-            'chance' => 'integer|max:100|min:0'
+            'count' => 'required|integer|max:100000|min:1',
+            'chance' => 'required|integer|max:100|min:1'
         ];
     }
 }

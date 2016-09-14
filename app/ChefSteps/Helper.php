@@ -72,7 +72,7 @@ class Helper
      */
     protected function shouldBeDuplicate($chanceOfDuplicate)
     {
-        $number = rand(0, 100);
+        $number = rand(0, 99);
 
         return $number < $chanceOfDuplicate;
     }
@@ -102,6 +102,6 @@ class Helper
      */
     protected function getUniqueEmail()
     {
-        return $this->faker->unique()->email;
+        return "{$this->faker->firstName}_{$this->faker->lastName}_{$this->faker->word}@{$this->faker->word}.{$this->faker->word}";
     }
 }

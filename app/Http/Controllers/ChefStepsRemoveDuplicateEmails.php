@@ -21,12 +21,12 @@ class ChefStepsRemoveDuplicateEmails extends Controller
     /**
      * @const int
      */
-    const DEFAULT_CHANCE = 50;
+    const DEFAULT_CHANCE = null;
 
     /**
      * @const int
      */
-    const DEFAULT_COUNT = 100;
+    const DEFAULT_COUNT = null;
 
     /**
      * ChefStepsRemoveDuplicateEmails constructor.
