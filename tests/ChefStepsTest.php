@@ -8,9 +8,9 @@ class ChefStepsTest extends TestCase
     protected $emailList;
 
     /**
-     * @var Faker\Generator
+     * @var \app\ChefSteps\Helper
      */
-    protected $faker;
+    protected $helper;
 
     /**
      * setup function
@@ -18,7 +18,7 @@ class ChefStepsTest extends TestCase
     public function setup()
     {
         $this->emailList = new App\ChefSteps\EmailList();
-        $this->faker = Faker\Factory::create();
+        $this->helper = App\ChefSteps\Helper::create();
     }
 
     /**
@@ -81,12 +81,7 @@ class ChefStepsTest extends TestCase
      */
     public function it_will_handle_one_hundred_thousand_email_addresses_under_one_second()
     {
-        $data = [];
-
-        for($i = 0; $i < 10000; $i++)
-        {
-            $data[] = $this->getEmail($data);
-        }
+        $data = $this->helper->getTestEmails(100000);
 
         $start = microtime(true);
         $result = $this->emailList->removeDuplicates($data);
@@ -95,57 +90,5 @@ class ChefStepsTest extends TestCase
         $this->assertLessThan(1, $end - $start);
     }
 
-    /**
-     * Get an email address with 50% chance that the email address will be a duplicate
-     *
-     * @param $data
-     * @return string
-     */
-    protected function getEmail($data)
-    {
-        if($this->shouldBeDuplicate())
-        {
-            return $this->getDuplicateEmail($data);
-        }
 
-        return $this->getUniqueEmail();
-    }
-
-    /**
-     * Randomly decide if this email should be a duplicate or not with 50% chance
-     *
-     * @return bool
-     */
-    protected function shouldBeDuplicate()
-    {
-        return (bool)rand(0, 1);
-    }
-
-    /**
-     * Get an email address that already exists
-     *
-     * @param $data
-     * @return string
-     */
-    protected function getDuplicateEmail($data)
-    {
-        if(empty($data))
-        {
-            return $this->getUniqueEmail();
-        }
-
-        $index = rand(0, count($data) - 1);
-
-        return $data[$index];
-    }
-
-    /**
-     * Get a unique email address
-     *
-     * @return string
-     */
-    protected function getUniqueEmail()
-    {
-        return $this->faker->unique()->email;
-    }
 }

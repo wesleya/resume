@@ -1,9 +1,8 @@
 <?php
-namespace app\ChefSteps;
+namespace App\ChefSteps;
 
 class EmailList
 {
-
     /**
      * custom method for removing duplicate email addresses from a list
      *
