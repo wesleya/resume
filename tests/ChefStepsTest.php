@@ -18,7 +18,7 @@ class ChefStepsTest extends TestCase
     public function setup()
     {
         $this->emailList = new App\ChefSteps\EmailList();
-        $this->helper = App\ChefSteps\Helper::create();
+        $this->helper = new \App\ChefSteps\Helper();
     }
 
     /**
@@ -41,6 +41,9 @@ class ChefStepsTest extends TestCase
         ], $result);
     }
 
+    /**
+     * @test
+     */
     public function it_will_not_remove_unique_email_addresses()
     {
         $data = [
@@ -50,8 +53,8 @@ class ChefStepsTest extends TestCase
 
         $result = $this->emailList->removeDuplicates($data);
 
-        $this->assertTrue(in_array($result, 'duplicate@test.com'));
-        $this->assertTrue(in_array($result, 'non_duplicate@test.com'));
+        $this->assertTrue(in_array('duplicate@test.com', $result));
+        $this->assertTrue(in_array('non_duplicate@test.com', $result));
     }
 
     /**
@@ -81,7 +84,7 @@ class ChefStepsTest extends TestCase
      */
     public function it_will_handle_one_hundred_thousand_email_addresses_under_one_second()
     {
-        $data = $this->helper->getTestEmails(100000);
+        $data = $this->helper->getTestEmails(100000, 50);
 
         $start = microtime(true);
         $result = $this->emailList->removeDuplicates($data);

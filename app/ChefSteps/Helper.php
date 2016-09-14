@@ -4,22 +4,19 @@ namespace App\ChefSteps;
 use Faker\Factory;
 use Faker\Generator;
 
+/**
+ * Class Helper
+ *
+ * Just a class to generate list of email addresses to help test email duplicate remover
+ *
+ * @package App\ChefSteps
+ */
 class Helper
 {
     /**
      * @var Generator
      */
     protected $faker;
-
-    /**
-     * Factory
-     *
-     * @return Helper
-     */
-    public static function create()
-    {
-        return new Helper();
-    }
 
     /**
      * Helper constructor.
@@ -32,16 +29,17 @@ class Helper
     /**
      * get $count number of test emails with 50% duplicates
      *
-     * @param $count
+     * @param int $count number of emails to generate
+     * @param int $chanceOfDuplicate percent chance that generated email is a duplicate
      * @return array
      */
-    public function getTestEmails($count)
+    public function getTestEmails($count, $chanceOfDuplicate)
     {
         $data = [];
 
         for($i = 0; $i < $count; $i++)
         {
-            $data[] = $this->getEmail($data);
+            $data[] = $this->getEmail($data, $chanceOfDuplicate);
         }
 
         shuffle($data);
@@ -52,12 +50,13 @@ class Helper
     /**
      * Get an email address with 50% chance that the email address will be a duplicate
      *
-     * @param $data
+     * @param array $data
+     * @param int $chanceOfDuplicate
      * @return string
      */
-    protected function getEmail($data)
+    protected function getEmail($data, $chanceOfDuplicate)
     {
-        if($this->shouldBeDuplicate())
+        if($this->shouldBeDuplicate($chanceOfDuplicate))
         {
             return $this->getDuplicateEmail($data);
         }
@@ -68,11 +67,14 @@ class Helper
     /**
      * Randomly decide if this email should be a duplicate or not with 50% chance
      *
+     * @param int $chanceOfDuplicate percent chance that this should be duplicate
      * @return bool
      */
-    protected function shouldBeDuplicate()
+    protected function shouldBeDuplicate($chanceOfDuplicate)
     {
-        return (bool)rand(0, 1);
+        $number = rand(0, 100);
+
+        return $number < $chanceOfDuplicate;
     }
 
     /**

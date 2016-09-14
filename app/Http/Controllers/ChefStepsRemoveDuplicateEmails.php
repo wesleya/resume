@@ -28,9 +28,14 @@ class ChefStepsRemoveDuplicateEmails extends Controller
         $this->emailList = new EmailList();
     }
 
+    /**
+     * index
+     *
+     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
+     */
     public function index()
     {
-        $inputEmails = $this->helper->getTestEmails(100);
+        $inputEmails = $this->helper->getTestEmails(100, 50);
         $filteredEmails = $this->emailList->removeDuplicates($inputEmails);
 
         $templateVars = [
