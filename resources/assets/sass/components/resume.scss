@@ -1,0 +1,77 @@
+h1, h2, h5, p {
+  color: #555555;
+}
+
+#intro {
+  background-color: $background-color;
+
+  h1 {
+    color: $text-color-light;
+    font-weight: 800;
+    font-size: 5em;
+  }
+
+  h2 {
+    color: $text-color-light;
+    font-weight: 200;
+    font-size: 3em;
+  }
+}
+
+@include media-breakpoint-up(sm) {
+  #intro h1 {
+    font-weight: 800;
+    font-size: 4em;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  #intro h1 {
+    font-weight: 800;
+    font-size: 5em;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  #intro h1 {
+    font-weight: 800;
+    font-size: 7em;
+  }
+}
+
+.component-transparent {
+  background-color: transparent;
+  border: none;
+}
+
+.btn-primary {
+  background-color: #555555;
+  border-color: #434343;
+}
+
+.btn-primary:hover {
+  background-color: #434343;
+  border-color: #434343;
+}
+
+.card-button .card-text {
+  color: #a8b0bb;
+}
+
+.btn-container {
+  margin-bottom: 15px;
+}
+
+#projects {
+  background-color: #FFFFFF;
+  margin-bottom: 0
+}
+
+#contact {
+  background-color: #FFFFFF;
+  margin-bottom: 0;
+}
+
+.section-row {
+  padding-top: 15px;
+}

@@ -1,0 +1,38 @@
+.btn-circle.btn-xl.warning {
+  border-color: $text-color-warning;
+  border-width: 2px;
+  color: $text-color-warning;
+}
+
+.btn-circle.btn-xl.success {
+  border-color: $text-color-success;
+  border-width: 2px;
+  color: $text-color-success;
+}
+
+.btn-circle.btn-xl.danger {
+  border-color: $text-color-danger;
+  border-width: 2px;
+  color: $text-color-danger;
+}
+
+.text-warning {
+  color: $text-color-warning!important;
+}
+.text-success {
+  color: $text-color-success!important;
+}
+.text-danger {
+  color: $text-color-danger!important;
+}
+
+.btn-circle.btn-xl {
+  width: 140px;
+  height: 140px;
+  padding: 10px 16px;
+  font-size: 48px;
+  line-height: 1.33;
+  border-radius: 70px;
+  background: none;
+  margin-bottom: 30px;
+}

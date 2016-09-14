@@ -11,6 +11,6 @@ class ChefStepsRemoveDuplicateEmails extends Controller
 
     public function index()
     {
-        dd("got here");
+        return view('chefsteps.index');
     }
 }
