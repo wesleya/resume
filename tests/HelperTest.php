@@ -40,7 +40,7 @@ class HelperTest extends TestCase
      */
     public function it_will_generate_duplicate_emails()
     {
-        $emails = $this->helper->getTestEmails(10, 100);
+        $emails = $this->helper->getTestEmails(100, 100);
 
         $this->assertEquals(1, count(array_unique($emails)));
     }

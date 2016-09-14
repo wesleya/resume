@@ -42,8 +42,6 @@ class Helper
             $data[] = $this->getEmail($data, $chanceOfDuplicate);
         }
 
-        shuffle($data);
-
         return $data;
     }
 
@@ -102,6 +100,13 @@ class Helper
      */
     protected function getUniqueEmail()
     {
-        return "{$this->faker->firstName}_{$this->faker->lastName}_{$this->faker->word}@{$this->faker->word}.{$this->faker->word}";
+        $email = $this->faker->firstName . $this->faker->lastName;
+
+        for($i = 0; $i < rand(1, 2); $i++)
+        {
+            $email .= "_{$this->faker->word}";
+        }
+
+        return "{$email}@{$this->faker->word}.{$this->faker->word}";
     }
 }
