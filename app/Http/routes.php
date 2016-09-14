@@ -16,3 +16,4 @@ Route::get('/', function () {
 });
 
 Route::get('/chefsteps-remove-duplicate-emails', 'ChefStepsRemoveDuplicateEmails@index');
+Route::post('/chefsteps-remove-duplicate-emails', 'ChefStepsRemoveDuplicateEmails@store');
