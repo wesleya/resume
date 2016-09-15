@@ -2,24 +2,39 @@
     export default{
         data(){
             return{
-                msg:'hello vue',
+                /**
+                 * original list of email addresses that are shown on screen
+                 */
                 display_input: [],
+
+                /**
+                 * filtered list of email addresses that are shown on screen
+                 */
                 display_output: []
             }
         },
 
         props: {
 
+            /**
+             * original list of email addresses that are not shown on screen
+             */
             input: null,
 
+            /**
+             * filtered list of email addresses that are not show on screen
+             */
             output: null
         },
 
         computed: {
 
+            /**
+             *  are there more results to load
+             */
             moreToLoad: function() {
 
-                return (this.input.length || this.output.length)
+                return Boolean(this.input.length || this.output.length);
             }
         },
 
@@ -28,14 +43,14 @@
             this.input = JSON.parse(this.input);
             this.output = JSON.parse(this.output);
 
-            // only load 20 results onto
+            // only load 20 results onto screen at once
             this.loadMoreResults(20);
         },
 
         methods: {
 
             /**
-             * load email addresses from both input and filtered lists onto screen
+             * move email addresses from input/output array to display_input/display_output array
              *
              * @param count
              */

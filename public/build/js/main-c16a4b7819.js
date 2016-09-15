@@ -14777,8 +14777,14 @@ Object.defineProperty(exports, "__esModule", {
 exports.default = {
     data: function data() {
         return {
-            msg: 'hello vue',
+            /**
+             * original list of email addresses that are shown on screen
+             */
             display_input: [],
+
+            /**
+             * filtered list of email addresses that are shown on screen
+             */
             display_output: []
         };
     },
@@ -14786,16 +14792,25 @@ exports.default = {
 
     props: {
 
+        /**
+         * original list of email addresses that are not shown on screen
+         */
         input: null,
 
+        /**
+         * filtered list of email addresses that are not show on screen
+         */
         output: null
     },
 
     computed: {
 
+        /**
+         *  are there more results to load
+         */
         moreToLoad: function moreToLoad() {
 
-            return this.input.length || this.output.length;
+            return Boolean(this.input.length || this.output.length);
         }
     },
 
@@ -14804,29 +14819,34 @@ exports.default = {
         this.input = JSON.parse(this.input);
         this.output = JSON.parse(this.output);
 
+        // only load 20 results onto screen at once
         this.loadMoreResults(20);
     },
 
 
     methods: {
 
+        /**
+         * move email addresses from input/output array to display_input/display_output array
+         *
+         * @param count
+         */
         loadMoreResults: function loadMoreResults(count) {
             this.load(this.input, this.display_input, count);
             this.load(this.output, this.display_output, count);
         },
 
         /**
-         * add initial pre loaded slides to slideshow
+         * load email addresses from the list onto the display
+         *
+         * @param list
+         * @param display
+         * @param count
          */
         load: function load(list, display, count) {
 
-            if (list.length == 0) {
-                return;
-            }
-
             for (var i = 0; i < count; i++) {
                 if (list.length == 0) {
-                    console.log("breaking");
                     break;
                 }
 
