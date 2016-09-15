@@ -15,10 +15,5 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/regex-welcome', function () {
-    return view('regex-welcome');
-});
-
-Route::get('/regex-home', function () {
-    return view('regex-home');
-});
+Route::get('/chefsteps-remove-duplicate-emails', 'ChefStepsRemoveDuplicateEmails@index');
+Route::post('/chefsteps-remove-duplicate-emails', 'ChefStepsRemoveDuplicateEmails@store');

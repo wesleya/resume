@@ -1,5 +1,6 @@
 var elixir = require('laravel-elixir');
 
+require('laravel-elixir-vueify');
 /*
  |--------------------------------------------------------------------------
  | Elixir Asset Management
@@ -16,5 +17,9 @@ elixir(function(mix) {
         .copy('bower_components/', 'public/bower_components')
         .copy('resources/img', 'public/img')
         .copy('resources/resume', 'public/resume')
-        .version('css/app.css');
+        .browserify('main.js')
+        .version([
+            'css/app.css',
+            'js/main.js'
+        ]);
 });
