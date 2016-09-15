@@ -35,7 +35,7 @@
                 <small id="emailHelp"
                        class="form-text text-muted"
                 >
-                    number of emails to generate integer between 1 - 100,000.
+                    Number of emails to generate. Integer between 1 - 100,000.
                 </small>
             </div>
         </div>
@@ -73,7 +73,7 @@
                 <small id="chanceHelp"
                        class="form-text text-muted"
                 >
-                    percent chance a randomly generated email is a duplicate address. integer between 1 - 100.
+                    Percent chance a randomly generated email is a duplicate. Integer between 1 - 100.
                 </small>
             </div>
         </div>

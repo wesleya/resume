@@ -7,10 +7,13 @@
             <div class="card">
                 <div class="card-block">
                     <h4 class="card-title">Input Email List</h4>
-                    <p class="card-text">{{$count}} email addresses containing {{$chance}}% randomly placed duplicates</p>
+                    <p class="card-text">{{$count}} email addresses with {{$chance}}% chance of duplicates.</p>
                 </div>
                 <ul class="list-group">
-                    <li v-for='(index, address) in display_input' track-by="$index" class="list-group-item">
+                    <li v-for='(index, address) in display_input'
+                        track-by="$index"
+                        class="list-group-item"
+                    >
                         @{{address}}
                     </li>
                 </ul>
@@ -24,7 +27,10 @@
                     <p class="card-text">Remove duplicate email addresses, leave the list in the original order.</p>
                 </div>
                 <ul class="list-group">
-                    <li v-for='(index, address) in display_output' track-by="$index" class="list-group-item">
+                    <li v-for='(index, address) in display_output'
+                        track-by="$index"
+                        class="list-group-item"
+                    >
                         @{{address}}
                     </li>
                 </ul>

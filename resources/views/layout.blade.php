@@ -33,6 +33,7 @@
 
 
 <script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script src="https://www.atlasestateagents.co.uk/javascript/tether.min.js"></script><!-- Tether for Bootstrap -->
 <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 <script src="{{elixir('js/main.js')}}"></script>
 
