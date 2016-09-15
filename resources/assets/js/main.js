@@ -1,6 +1,6 @@
 // browserify entry point
-var Vue = require('../../../bower_components/vue/dist/vue.js');
-Vue.use(require('../../../bower_components/vue-resource/dist/vue-resource.js'));
+var Vue = require('../../../bower_components/vue/dist/vue.min.js');
+Vue.use(require('../../../bower_components/vue-resource/dist/vue-resource.min.js'));
 
 import Results from './components/Results.vue';
 
