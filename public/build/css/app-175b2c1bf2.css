@@ -4846,10 +4846,10 @@ h1, h2, h5, p {
 .section-row {
   padding-top: 15px; }
 
-.jumbotron {
+#chefSteps .jumbotron {
   padding-bottom: 0px; }
 
-.btn {
+#chefSteps .btn {
   margin-bottom: 20px; }
 
 /*# sourceMappingURL=app.css.map */

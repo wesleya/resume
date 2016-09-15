@@ -1,7 +1,7 @@
 @extends('layout')
 
 @section('content')
-    <div class="container">
+    <div class="container" id="chefSteps">
         @include('chefsteps.header')
 
         @include('chefsteps.form')
