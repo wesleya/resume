@@ -27,13 +27,14 @@
     <meta name="theme-color" content="#ffffff">
 
 </head>
-<body>
+<body id="app" v-cloak>
 
 @yield('content')
 
 
 <script src="bower_components/jquery/dist/jquery.min.js"></script>
 <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="{{elixir('js/main.js')}}"></script>
 
 <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

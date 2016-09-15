@@ -5,7 +5,7 @@
     >
 
     <div class="row">
-        <div class="col-xs-12 col-sm-5">
+        <div class="col-xs-12 col-sm-4">
             <div @if($errors->has('count'))
                  class="form-group has-error"
                  @else
@@ -39,7 +39,7 @@
                 </small>
             </div>
         </div>
-        <div class="col-xs-12 col-sm-5">
+        <div class="col-xs-12 col-sm-4">
             <div @if($errors->has('chance'))
                  class="form-group has-error"
                  @else
@@ -77,7 +77,7 @@
                 </small>
             </div>
         </div>
-        <div class="col-xs-12 col-sm-2">
+        <div class="col-xs-12 col-sm-4">
             <button type="submit" class="btn btn-danger btn-block btn-lg">Submit</button>
         </div>
     </div>

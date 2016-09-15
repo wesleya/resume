@@ -61,9 +61,9 @@ class ChefStepsRemoveDuplicateEmails extends Controller
         $count = $request->input("count", self::DEFAULT_COUNT);
         $chance = $request->input("chance", self::DEFAULT_CHANCE);
 
-        $inputEmails = $this->helper->getTestEmails($count, $chance);
-        $filteredEmails = $this->emailList->removeDuplicates($inputEmails);
+        $input = $this->helper->getTestEmails($count, $chance);
+        $output = $this->emailList->removeDuplicates($input);
 
-        return view('chefsteps.store', compact('count', 'chance', 'inputEmails', 'filteredEmails'));
+        return view('chefsteps.store', compact('count', 'chance', 'input', 'output'));
     }
 }
